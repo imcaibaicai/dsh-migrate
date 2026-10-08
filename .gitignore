@@ -1,0 +1,45 @@
+# ==============================================================================
+# Security Boundaries & Secrets Protection (CRITICAL)
+# 核心安全边界与凭据防护（严禁向公开仓库泄露）
+# ==============================================================================
+*.credentials.yaml
+.credentials.yaml
+*.key
+*.pem
+*.token
+*secrets*
+
+# Migration Bundles & Archives
+*.zip
+*.7z
+*.tar.gz
+*.rar
+dsh-bundle.zip
+DSH_Migration_Bundle.zip
+DSH_Backup*.zip
+
+# Large Binaries & Proprietary Executables
+*.exe
+*.dll
+*.node
+*.asar
+installer.exe
+ProgramFiles_DSH/
+DotDsh/
+
+# DSH Private Runtime & Cache Directories
+logs/
+*.log
+video-cache/
+sessions-quarantine*/
+sessions/
+session-query/
+session_projcache/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
